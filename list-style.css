@@ -1,0 +1,23 @@
+ul.is-style-pro > li, ul.is-style-neutral > li, ul.is-style-contra > li {
+	padding-left: .5em;
+}
+
+ul.is-style-pro > li::before, ul.is-style-neutral > li::before, ul.is-style-contra > li::before {
+	display: none;
+}
+
+ul.is-style-pro > li::marker {
+   content: "\2713";
+   color: green;
+}
+
+ul.is-style-neutral > li::marker {
+   content: "\25CB";
+   color: gray;
+   font-size: .8em;
+}
+
+ul.is-style-contra > li::marker {
+   content: "\002D";
+   color: red;
+}
